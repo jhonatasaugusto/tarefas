@@ -1,0 +1,13 @@
+{
+  "name": "notificador-tarefas",
+  "version": "1.0.0",
+  "main": "notificador-cron.js",
+  "scripts": {
+    "start": "node notificador-cron.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "@supabase/supabase-js": "^2.39.0",
+    "web-push": "^3.6.7"
+  }
+}
